@@ -47,9 +47,9 @@ body {
 
 .cartao__conteudo p {
   margin-top: 1rem;
-    padding: 2rem;
-    margin-top: 4rem;
-    font-size: 1.4vw;
+  padding: 2rem;
+  margin-top: 4rem;
+  font-size: 1.4vw;
 }
 
 .cartao__conteudo__pergunta p {
@@ -95,19 +95,22 @@ footer p {
   font-size: 0.6rem;
   margin-top: 0.5rem;
 }
-@media (max-width: 560 px) {
 
+@media (max-width: 560px) {
+  
   body {
-      background: url('img/bd-mobile.webp');
+      background: url('img/bg-mobile.webp'), no-repeat cover;
   }
 
-}
-.cartao {
-  flex: 1 0 calc(100% - 1rem);
-}
-.cartao__conteudo h3 {
-  font-size: 3vw;
-}
-.cartao__conteudo p {
-  font-size: 3.8vw;
+  .cartao {
+      flex: 1 0 calc(100% - 1rem)
+  }
+
+  .cartao__conteudo h3 {
+      font-size: 3vw;
+  }
+
+  .cartao__conteudo p {
+      font-size: 3.8vw;
+  }
 }
