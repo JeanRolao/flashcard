@@ -21,3 +21,13 @@ criaCartao(
     'Como se diz oi em Inglês?',
     'Oi em ingles é HI (RAI)'
 )
+criaCartao(
+    'Lingua inglesa',
+    'Quem é o atual campeão da Copa do Brasil?',
+    'Flamengo'
+)
+criaCartao(
+    'Lingua inglesa',
+    'Quantos titulos de copa o Brasil o Flamengo tem?',
+    '5'
+)
