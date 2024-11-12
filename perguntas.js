@@ -27,7 +27,7 @@ criaCartao(
     'Flamengo'
 )
 criaCartao(
-    'fuebol',
+    'futebol',
     'Quantos titulos de copa o Brasil o Flamengo tem?',
     '5'
 )
